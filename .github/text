@@ -1,0 +1,14 @@
+smart-accounting-ocr/
+├── app/
+│   ├── core/
+│   │   ├── ocr_processor.py       # OCR处理核心逻辑
+│   │   ├── data_parser.py         # 支付数据解析器
+│   │   └── excel_generator.py     # Excel生成模块
+│   ├── static/                    # 静态文件
+│   ├── templates/                 # 网页模板
+│   ├── config.py                  # 配置文件
+│   └── main.py                    # Flask主程序
+├── tests/                         # 单元测试
+├── requirements.txt               # 依赖列表
+├── Dockerfile                     # Docker配置
+└── README.md                      # 项目说明
